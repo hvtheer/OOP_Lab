@@ -1,4 +1,3 @@
-package Lab01;
 import java.util.Scanner;
 public class DisplayTheNumbersOfDaysOfAMonth {
     private static boolean check(int[] arr, int toCheckValue)
