@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Cart {
 	public static final int MAX_NUMBERS_ORDER = 20;
