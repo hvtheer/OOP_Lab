@@ -1,4 +1,4 @@
-package hust.soict.dsai.aims.media;
+package hust.soict.hedspi.aims.media;
 
 public class DigitalVideoDisc extends Media implements Playable{
 	private String director;

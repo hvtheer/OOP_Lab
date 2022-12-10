@@ -1,6 +1,6 @@
-package hust.soict.dsai.aims;
-import hust.soict.dsai.aims.cart.Cart;
-import hust.soict.dsai.aims.media.*;
+package hust.soict.hedspi.aims;
+import hust.soict.hedspi.aims.cart.Cart;
+import hust.soict.hedspi.aims.media.*;
 
 import java.util.ArrayList;
 import java.util.List;

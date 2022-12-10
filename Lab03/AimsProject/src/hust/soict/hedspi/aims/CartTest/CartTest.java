@@ -1,6 +1,6 @@
-package hust.soict.dsai.aims.CartTest;
-import hust.soict.dsai.aims.cart.Cart;
-import hust.soict.dsai.aims.media.DigitalVideoDisc;
+package hust.soict.hedspi.aims.CartTest;
+import hust.soict.hedspi.aims.cart.Cart;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 
 public class CartTest {
 	public static void main(String[] args) {

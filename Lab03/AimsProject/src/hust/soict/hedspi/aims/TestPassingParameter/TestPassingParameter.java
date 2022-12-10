@@ -1,5 +1,5 @@
-package hust.soict.dsai.aims.TestPassingParameter;
-import hust.soict.dsai.aims.media.DigitalVideoDisc;
+package hust.soict.hedspi.aims.TestPassingParameter;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 
 public class TestPassingParameter {
 	public static void main(String[] args) {
