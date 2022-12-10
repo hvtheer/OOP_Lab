@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Lab01/JavaBasics/src"/>
 	<classpathentry kind="src" path="Lab02/AimsProject/src"/>
+	<classpathentry kind="src" path="Lab03/AimsProject/src/hust/soict/hedspi/aims"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
