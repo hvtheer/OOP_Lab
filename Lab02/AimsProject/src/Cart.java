@@ -15,7 +15,7 @@ public class Cart {
 		if (qtyOrdered < MAX_NUMBERS_ORDER){
             itemsOrder.add(disc);
             qtyOrdered++;
-            System.out.println("The disc has been added");
+            System.out.printf("The disc %s has been added\n", disc.getTitle());
         } else {
             System.out.println("The cart is almost full");
         }
@@ -38,8 +38,13 @@ public class Cart {
 	}
 	
 	public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
-		itemsOrder.remove(disc);
-		qtyOrdered--;
-		System.out.printf("The disc %s has been removed\n",disc.getTitle());
+		if (qtyOrdered > 0) {
+			if (itemsOrder.contains(disc)) {
+				itemsOrder.remove(disc);
+				qtyOrdered--;
+				System.out.printf("The disc %s has been removed\n",disc.getTitle());
+			} else System.out.println("No found");
+		} else System.out.println("Empty cart");
+		
 	}
 }
